@@ -3,6 +3,7 @@
 .imagem {
 	width: 40ex;
 }
+
 .menu {
 		background-color: white;
 		height: 15%;
@@ -12,6 +13,7 @@
 		margin: 0px 0px 0px 0px;
 		align-items: center;
 }
+
 .empresa {
 		font-family: arial;
 		color: #252AB2;
@@ -23,6 +25,7 @@
 		width: 77%;
 		text-shadow:#000 1px -1px, #000 -2px 2px, #000 1px 1px, #000 -2px -1px;
 }
+
 .titulo {
 		color: #E6E6E6;
 		padding: 20px;
@@ -36,6 +39,7 @@
 		text-shadow: 2px 2px #0174DF;
 		box-shadow: inset 0 0 75px 1px black;
 }
+
 body {
 		background-image: url(imagens/laranja.jpg);
 		background-repeat: no-repeat;
@@ -43,6 +47,7 @@ body {
 		background-attachment: fixed;
 		margin: 0%;
 }
+
 .z {
 		margin: auto;
 		box-shadow: 1px 1px 50px #000;
@@ -53,6 +58,7 @@ body {
 		border-radius: 1px;
 		height: 640ex;
 }
+
 .legenda {
 		margin: auto;
 		width: 90%;
@@ -61,6 +67,7 @@ body {
 		background-color: #08298A;
 		border-radius: 0px 0px 1px 1px;
 }
+
 .a {
 		margin: auto;
 		width: 99%;
@@ -74,6 +81,7 @@ body {
 		height: 100%;
 		filter: brightness(105%);
 }
+
 .textarea {
 		padding: 2% 0.0% 0% 0.0%;
 		background: linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 10%,rgba(0,0,0,.2) 10%,rgba(0,0,0,.4));
@@ -93,6 +101,7 @@ body {
 		text-shadow: 2px 2px #5E3200;
 		text-align: center;
 }
+
 .pergunta {
 		font-family: monospace;
 		font-size: 30pt;
@@ -104,6 +113,7 @@ body {
 		background: linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 40%,rgba(0,0,0,.2) 40%,rgba(0,0,0,.4));
 		background-color: #08298A;
 }
+
 .indice {
 		position: relative;
 		width: 55%;
@@ -113,6 +123,7 @@ body {
 		color: black;
 		text-shadow: 1px 1px #C1C1C1;
 }
+
 .ir {
 		font-size: 20pt;
 		font-weight: bold;
@@ -124,6 +135,7 @@ body {
 		border: 1px;
 		text-shadow: 1px 1px #C1C1C1;
 }
+
 .indice5 {
 		position: relative;
 		width: 88%;
@@ -133,6 +145,7 @@ body {
 		color: black;
 		text-shadow: 1px 1px #C1C1C1;
 }
+
 .ir5 {
 		font-size: 20pt;
 		font-family: Arial Narrow;
@@ -145,6 +158,7 @@ body {
 		border: 1px;
 		text-shadow: 1px 1px #C1C1C1;
 }
+
 .indiceN {
 		position: relative;
 		width: 50%;
@@ -154,6 +168,7 @@ body {
 		color: black;
 		text-shadow: 1px 1px #C1C1C1;
 }
+
 .irN {
 		font-size: 20pt;
 		font-weight: bold;
@@ -164,6 +179,7 @@ body {
 		font-family: Arial Narrow;
 		text-shadow: 1px 1px #C1C1C1;
 }
+
 .footer {
 		color: #E6E6E6;
 		padding: 20px;
@@ -177,6 +193,7 @@ body {
 		text-shadow: 2px 2px #0174DF;
 		box-shadow: inset 0 0 75px 1px black;
 }
+
 .link {
 		margin-left: 10px;
 		text-decoration: none;
