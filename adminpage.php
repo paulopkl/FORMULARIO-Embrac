@@ -4,6 +4,7 @@ session_start();
 if(!isset($_SESSION['login1']) AND !isset($_SESSION['senha1'])){
 		header("Location: Login.php");
 		exit;
+
 } */
 
 $mysqli = new mysqli("localhost", "root", "", "formulario");
