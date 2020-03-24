@@ -2,4 +2,4 @@
 
 Desenvolvido quando estava iniciando na programação em 2018.
 
-<img src="SiteWelcome.png">
+<img src="./SiteWelcome.png">
