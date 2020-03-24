@@ -1,7 +1,5 @@
 <?php
-
 //  Criar Conexão
-
 try {
     $conn = new PDO("mysql:host=localhost;dbname=id8765345_formulario", "id8765345_ebc", "embrac123",
       array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
