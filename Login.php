@@ -12,9 +12,9 @@
 			<div class="acomodar"><img src="imagens\logobranco.jpg" class="imagem"></div>
 			<form action="conectaraologin.php" method="post">
 				<fieldset>
-					<label for="login">Login: </label><input id="login" type="text" name="login" required="">
-					<label for="senha">Senha: </label><input id="senha" type="password" name="senha" required="">
-					<input type="submit" name="enviar">
+				   <label for="login">Login: </label><input id="login" type="text" name="login" required="">
+				   <label for="senha">Senha: </label><input id="senha" type="password" name="senha" required="">
+				   <input type="submit" name="enviar">
 				</fieldset>	
 			</form>
 		</div>
