@@ -1,0 +1,321 @@
+﻿@charset "UTF-8";
+/*========================================= EMPRESA BRASILEIRA DE CARGAS LTDA ====================================================*/
+.empresa {
+		font-family: arial;
+		color: #252AB2;
+		font-size: 17pt;
+		display: inline-block;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		margin-left: 0%;
+		text-shadow:#000 1px -1px, #000 -2px 2px, #000 1px 1px, #000 -2px -1px;
+}
+.imagem {
+		margin-top: -2%;
+		margin-bottom: -3%;
+}
+.menu {
+		display: inline-block;
+		background-color: white;
+		height: 15%;
+		width: 100%;
+		border-bottom-style: groove;
+		border-width: 2px;
+		margin: -1px 0px 0px 0px;
+		align-items: center;
+}
+/*============================================= TITULO DO FORMULÁRIO ============================================================*/
+.titulo {
+		color: #E6E6E6;
+		padding: 20px;
+		text-align: center;
+		font-family: arial;
+		border-radius: 0px 0px 20% 20%;
+		border-style: groove;
+		margin: 0px 0px 0px -1px;
+		background-color: #08298A;
+		position: relative;
+		text-shadow: 2px 2px #0174DF;
+		box-shadow: inset 0 0 75px 1px black;
+}
+
+.Subtitulo {
+		background-image: url(imagens/papel-amaçado.jpg);
+		font-family: calibri;
+		font-size: 18pt;
+		margin: 0% auto 0.5% auto; 
+		width: 68%;
+		padding: 1% 1% 1% 1%;
+		line-height: 120%; 
+		border: 1px solid grey;
+		box-shadow: 1px 1px 15px 1px grey
+}
+/*============================================= CADASTRO DO FORMULÁRIO ==========================================================*/
+.cadastro {
+		background-color: #f49540; 
+		display: flex;
+		height: 24%;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		margin: auto;
+		margin-top: -3px;
+		margin-bottom: 1%;
+		position: relative;
+		padding: 1%;
+		border-width: 3px;
+		position: relative;
+		border-radius: 15px;
+}
+.cc {
+		width: 95%;
+		margin: 2%;
+		display: block;
+		box-sizing: border-box;
+		border-radius: 2px;
+		background: #E8E8E8;
+		border:1px solid blue;
+		font-family: helvetica;
+		font-size: 17pt;
+		text-align: center;
+}
+.cc:hover {
+		background-color: #FAFAFA;
+}
+h4 {
+		margin: 1.5% 4% -1% 2%;
+		font-family: helvetica;
+		font-size: 12pt;
+		color: #181A70;
+}
+.legenda {
+		margin: auto;
+		width: 70%;
+		height: 20px;
+		border-bottom: 1px solid #A4A4A4;
+		background-color: #E0E0E0;
+		border-radius: 0px 0px 1px 1px;
+}
+.legend {
+		font-family: helvetica;
+		border: 1px solid black; 
+		border-radius: 6px; 
+		padding: 5px; 
+		background: #C9F1FF;
+}
+
+/*============================================= BLOCOS DO FORMULÁRIO ============================================================*/
+.z {
+		margin: auto;
+		box-shadow: 1px 1px 50px #000;
+		width: 70%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border-radius: 1px;
+}
+
+input[type=textarea]{
+		display: block;
+		margin: auto;
+		font-family: helvetica;
+		width: 90%;
+		height: 50px;
+		font-size: 15pt;
+}
+/*============================================ ESPAÇO ENTRE OS BLOCOS ===========================================================*/
+.espaço {
+		height: 3ex;
+}
+.espaçog {
+		height: 13ex;
+}
+/*============================================== CORPO DA PAGINA ================================================================*/
+body {
+		background-image: url(imagens/branco.jpg);
+		background-attachment: fixed;
+		margin: 0%;
+}
+/*============================================= TITULO DA PERGUNTA ==============================================================*/
+h3 {
+		font-family: helvetica;
+		font-size: 35px;
+		padding: 3%;
+		background-color: orange;
+		margin: 0px;
+		border-radius: 1px 1px 0px 0px; 
+		border: 3px solid #DF7401;
+		text-shadow: 2px 2px #B18904;
+		z-index: 1;
+}
+
+.textarea {
+		font-family: helvetica;
+		font-size: 20pt;
+		padding: 1.5%;
+		background-color: #cccccc;
+		margin: 0px;
+		border-radius: 1px 1px 0px 0px; 
+		border: 3px solid #ADADAD;
+		text-shadow: 2px 2px #ADADAD; 
+}
+/*=========================================== CORPO DO QUADRADO DE RESPOSTAS ====================================================*/
+.a {
+		margin: auto;
+		width: 99.2%;
+		background-color: #F2F2F2;
+		border: 3px solid #E0E0E0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+
+.a6 {
+		margin: auto;
+		width: 99.2%;
+		background-color: #F2F2F2;
+		border: 3px solid #E0E0E0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		column-count: 2;		
+}
+
+/*====================================== ESCRITA DO LADO DOS BOTÕES DE PREENCHER ================================================*/
+label {
+		padding: 1px;
+		font-family: helvetica;
+		font-size: 20pt;
+		margin-top: 110%;
+}
+										      /* COLOCAR O MOUSE EM CIMA */	
+label:hover {
+		background-image: linear-gradient(to right, #FFFF00, #F2F5A9, #F2F2F2);
+		border-radius: 5px;
+		font-size: 20pt;
+		font-family: helvetica;
+		padding: 1px;
+		margin-top: 10px;
+}
+/*============================================= BOTÕES DE PREENCHER =============================================================*/
+input[type=radio] {
+		height:;
+		font-family: helvetica;
+		margin: 1.35% 2% 0% 2%;
+		border-radius: 5px;
+		box-shadow: 0px 0px 40px #CED8F6;
+		padding: 10px;
+}
+										     /* COLOCAR O MOUSE EM CIMA */
+input[type=radio]:hover {
+		color: #E0F8F7;
+		padding: 10px;
+		box-shadow: inset 0px 0px 10px 0px #BDBDBD, 0px 0px 25px 5px #BDBDBD;
+		padding: 10px;
+}
+/*================================================ CAIXA DE TEXTO ===============================================================*/
+.textbox {
+		width: 95%;
+		margin: 2%;
+		box-sizing: border-box;
+		border-radius: 5px;
+		background: #ffffff;
+		border:1px solid #990000;
+		padding: 4px;
+		font-size: 13pt;
+		font-family: helvetica;
+		color: #0101DF;
+}
+										     /* COLOCAR O MOUSE EM CIMA */
+.textbox:hover {
+		background-color: #E0F8F7;
+		border:1px solid #990000;		
+}
+/*================================================ BOTÃO ENVIAR ==================================================================*/
+input[type=submit]{
+	display: inline-block;
+	padding: 1% 1% 2% 1%;
+	font-size: 190%;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #6E6E6E;
+	width: 25%;
+	height: 75%;
+}
+
+.Enviar{
+	display: flex; 
+	justify-content: center; 
+	align-items:center; 
+	height: 80px; 
+	width: 100%;
+}
+										     /* APERTAR NO BOTÃO */
+input[type=submit]:hover	{
+	background-color: #3e8e41;
+}
+input[type=submit]:active	{
+	background-color: #2E2E2E;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+/*=================================================== RODAPÉ ====================================================================*/
+.rodape {
+	background-color: #08298A;
+	max-width: 100%;
+	border-style: outset;
+	border-color: #0B0B61;
+	display: flex; 
+	justify-content: center; 
+	align-items:center;
+	padding-bottom: 0.7%;
+	box-shadow: inset 0px -5px 50px 1px black;
+}
+/*=============================================== DIMENSÕES FOMULÁRIO ============================================================*/
+.form {
+	margin-right: -10px;
+	margin-bottom: 0px;
+}
+/*==================================================== LINKSINHO =================================================================*/
+a:link, a:visited {
+	background-color: #0B1B66;
+	color: orange;
+	text-decoration:none; 
+} 
+a:hover {
+	color: white;
+	text-decoration:none; 
+} 
+ .fixo {
+ 	display: block;
+ 	float: right;
+  	bottom: 0px;
+ }	
+
+.itens {
+		position: absolute;
+		-webkit-box-shadow: -1px -7px 30px 0px rgba(50, 50, 50, 1);
+		-moz-box-shadow: -1px -7px 30px 0px rgba(50, 50, 50, 1);
+		box-shadow: -1px -7px 30px 0px rgba(50, 50, 50, 1);
+		margin: -4.7% 15% auto 15%;
+		width: 69.6%;
+		background: linear-gradient(0deg,rgba(0,0,0,.4),rgba(0,0,0,.2) 40%,rgba(0,0,0,.2) 40%,rgba(0,0,0,.2));
+		background-color: white;
+		border: 3px solid #D8D8D8;
+		border-radius: 0% 0% 20% 20%;
+		height: 10%;
+		z-index: 2;
+		text-align: center;
+}
+
+.grupo{
+		font-family: Arial;
+		margin: 1.5%;
+		color: #252AB2;
+		font-size: 30pt;
+		text-shadow:#000 1px -1px, grey -2px 2px, grey 1px 1px, grey -2px -1px;
+}
