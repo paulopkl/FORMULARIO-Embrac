@@ -1,10 +1,9 @@
-
-
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
 label {
 	float: left;
 	font-weight: bold;
@@ -29,6 +28,7 @@ input[type=text], input[type=password]{
 	border: 1px solid #aaa;
 	border-radius: 4px;
 }
+
 input[type=text]:hover{
 	padding: 3px;
 	width: 100%;
@@ -37,6 +37,7 @@ input[type=text]:hover{
 	border: 1px solid #aaa;
 	border-radius: 4px;
 }
+
 input[type=submit] {
 	padding: 3px;
 	margin: 0 auto;
