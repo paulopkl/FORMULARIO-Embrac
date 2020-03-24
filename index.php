@@ -12,7 +12,7 @@
 </head>
 <body>
 	<header class="menu">
-		<img src="imagens/logobranco.jpg" class="imagem" id="logo">
+			<img src="imagens/logobranco.jpg" class="imagem" id="logo">
 		<div class="empresa">
 			<h1>EMPRESA BRASILEIRA DE CARGAS LTDA.</h1>
 		</div>
